@@ -1,0 +1,26 @@
+
+@media print
+{   
+	body
+	{
+		margin-top: -50px !important;
+	} 
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+    .print{
+    	display: inline-block;
+    }
+}
+
+#ingreso-modal{
+	margin-top: -15px;
+	font-weight: normal;
+}
+
+.datepicker{
+	z-index: 1055 !important;
+}
+
+.bred{ background-color: #FFBABA !important;}
