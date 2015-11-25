@@ -20,7 +20,6 @@ class Mezcla extends CI_Controller
 		$data['mezcla_master'] = $this->model_productos->get_masters_mezcla();
 
 		$this->load->view('view_header');
-		$this->load->view('view_mezclas', $data);
-		
+		$this->load->view('view_mezclas', $data);		
 	}
 }
