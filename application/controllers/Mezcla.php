@@ -21,5 +21,6 @@ class Mezcla extends CI_Controller
 
 		$this->load->view('view_header');
 		$this->load->view('view_mezclas', $data);
+		
 	}
 }
